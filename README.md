@@ -7,8 +7,6 @@ MoneyQuest is a gamified financial simulator built for beginners who want to und
 📈 Real-time projections for 1 month, 1 year, and 5 years ahead
 
 
-LIVE DEMO : https://money-quest-mauve.vercel.app
-
 
 ✨ Features
 💡 MoneyMirror Engine (Simulator)
