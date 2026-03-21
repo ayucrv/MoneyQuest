@@ -38,4 +38,3 @@ Fintech-style analytics dashboard
 Animated number counters (Score, Level, Lessons, Simulations)
 Badge collection with gold shine animations
 Level progress bar visualization
-
