@@ -1,73 +1,40 @@
-# React + TypeScript + Vite
+A modern fintech + edtech web app that helps beginners build financial habits through simulations, gamified learning, and real-time spending insights.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🎯 What is MoneyQuest?
+MoneyQuest is a gamified financial simulator built for beginners who want to understand money without the overwhelm. Instead of boring spreadsheets, users get:
 
-Currently, two official plugins are available:
+📊 A Financial Future Simulator that shows where their money goes
+🎮 Gamified lessons with XP, badges, and level-ups
+⚠️ Smart spending alerts before bad habits drain their savings
+📈 Real-time projections for 1 month, 1 year, and 5 years ahead
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## React Compiler
+✨ Features
+💡 MoneyMirror Engine (Simulator)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Enter your income, daily spending, and current savings — get an animated projection of your financial future.
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+Animated savings line chart (grows left to right)
+Cards showing savings at 1 Month / 1 Year / 5 Years
+⚠️ Prediction alerts like "At this rate, your balance runs out in 18 days"
+Green / red visual signals for healthy vs risky spending
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+🎓 Learn Page
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+Lesson cards with difficulty tags and progress bars
+Clean educational layout with callout boxes
+"Key Insight" highlight boxes for important concepts
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+🧠 Quiz Page
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+Animated answer selection with instant feedback
+✅ Correct: green highlight + checkmark animation
+❌ Wrong: shake animation + explanation shown
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+📊 Dashboard
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+Fintech-style analytics dashboard
+Animated number counters (Score, Level, Lessons, Simulations)
+Badge collection with gold shine animations
+Level progress bar visualization
